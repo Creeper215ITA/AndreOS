@@ -30,9 +30,9 @@ Per scaricare il codice per usarlo segui le istruzioni:
 
 2) Copia il codice
 
-3) Ora crea un progetto Visual Studio in C# che porta il nome del tipo progretto "_Cosmos Kernel_" 
+3) Ora crea un progetto Visual Studio selezionando il tipo di progetto "_Cosmos Kernel_" (Scegli Cosmos Kernel in C#) 
 
-4) Ora incolla il codice
+4) Ora incolla il codice nel progetto
 
 5) Clicca, se te lo chiede, sul banner giallo con scritto "_Ricarica Progetto_" 
 
