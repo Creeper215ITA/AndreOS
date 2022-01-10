@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# AndreOS, un normale like-dos
+## L'OS simile a linux ma non basato su di esso
+AndreOS è un OS open-source like-dos non-linux based costruito con l'SDK di CosmosOS (https://www.gocosmos.org/) scritto in C# (C sharp).
+Purtroppo è ancora "minimal" e non è disponibile una vera e propia ISO. A breve lascerò aggiornamenti ma, per ora cercherò di lasciare un file .vmdk da provare su VMware.
+Per più informazioni potete visitare il mio blog --> creeper215.blogspot.com
+Per scaricare il codice per usarlo segui le istruzioni:
 
-You can use the [editor on GitHub](https://github.com/Creeper215ITA/AndreOS/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+1) Scarica Visual Studio 2019 e poi vai su https://github.com/CosmosOS/Cosmos/releases/tag/Userkit_20200708 e scarica l'user kit Cosmos
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2) Ora installa Visual Studio assicurandoti che selezioni lo sviluppo di C, C++, C# e anche VB .net e per sicurezza attivane anche altri
 
-### Markdown
+3) Ora esegui il programma di installazione di Cosmos User Kit.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4) Appena finito scarica VMware Workstation Player (non workstation pro)
 
-```markdown
-Syntax highlighted code block
+5) Esegui l'installer
 
-# Header 1
-## Header 2
-### Header 3
+6) Appena finito vai sulla mia repository (https://github.com/Creeper215ITA/Creeper215ITA.github.io) e clicca su Relases, ora scegli la versione di AndreOS.
 
-- Bulleted
-- List
+7) Scarica lo zip, estrailo dove vuoi... Ti consiglio di estrarlo in C:\Users\andre\source\repos o dove sono contenuti i Progetti di Visual Studio.
 
-1. Numbered
-2. List
+8) Apri AndreOS.sln (si trova nello .zip) con Visual Studio. Se c'è un piccolo banner giallo con scritto "_Ricarica Progetto_" cliccaci.
 
-**Bold** and _Italic_ and `Code` text
+9) Ora clicca Il pulsante Play con accanto scritto Cosmos e dovresti riuscir ad eseguire l'OS. 
 
-[Link](url) and ![Image](src)
-```
+### Ora hai eseguito AndreOS su VMware
+#### Se da errore esegui questi passaggi:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+1) Apri AndreOS.sln
 
-### Jekyll Themes
+2) Copia il codice
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Creeper215ITA/AndreOS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+3) Ora crea un progetto Visual Studio in C# che porta il nome del tipo progretto "_Cosmos Kernel_" 
 
-### Support or Contact
+4) Ora incolla il codice
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+5) Clicca, se te lo chiede, sul banner giallo con scritto "_Ricarica Progetto_" 
+
+6) Ora compila cliccando sul bottone Play con accanto scritto "_Cosmos_"
+### Ora drovesti riuscire ad eseguire l'OS
+Per problemi vai sulla mia repository e seleziona "_Issues_" e poi scrivi l'errore che da Visual Studio vi darò una risposta e cercherò la soluzione
+🤓Grazie!!! Da Creeper215(ITA) Vai sul mio sito e commenta ad un post casuale per altro aiuto --> creeper215.blogspot.com
